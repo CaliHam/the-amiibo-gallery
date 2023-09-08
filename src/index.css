@@ -5,6 +5,7 @@
 body {
   margin: 0;
   display: flex;
+  position: relative;
   place-items: center;
   justify-content: center;
   min-width: 320px;
