@@ -2,7 +2,7 @@
 ### [View Deployed Site](link.app)
 
 ## Abstract: 
-lots of text here
+This site was built to assist with all you amiibo needs! View all currently available amiibos by their game series or simply search for one.
 
 ### Preview of App:
 
