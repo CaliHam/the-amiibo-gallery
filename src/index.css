@@ -5,7 +5,14 @@
 body {
   margin: 0;
   display: flex;
+  position: relative;
   place-items: center;
+  justify-content: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: linear-gradient(to right top, #f7bc95, #f4b595, #f1ae95, #eda895, #e8a296, #e6a19b, #e3a0a0, #e0a0a5, #dfa5af, #deabb7, #ddb0bf, #dbb6c6);
+}
+
+* {
+  font-family: 'Concert One', cursive;
 }
