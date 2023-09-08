@@ -26,12 +26,14 @@ const ByGame: React.FC<GameProps> = ({gameSeries}) => {
 
   const allAmiibos = amiibos.map((amiibo: AmiiboData) => {
     return (
-      <img src={amiibo.image} key={amiibo.head + amiibo.tail} alt={amiibo.character}></img>
+      <div className="flex flex-col justify-end h-25" key={amiibo.head + amiibo.tail} >
+        <img src={amiibo.image} alt={amiibo.character}></img>
+      </div>
     )
   })
 
   return (
-    <div className='grid grid-cols-4 gap-4'>
+    <div className='grid grid-cols-5 gap-4'>
       {amiibos.length ? allAmiibos : <img src={pacmanloader}/>}
     </div>
   )
